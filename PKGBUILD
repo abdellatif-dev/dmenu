@@ -35,7 +35,7 @@ build() {
 }
 
 package() {
-    cd dmenu-distrotube  
+    cd dmenu-distrotube
     mkdir -p ${pkgdir}/opt/${pkgname}
     cp -rf * ${pkgdir}/opt/${pkgname}
     make PREFIX=/usr DESTDIR="${pkgdir}" install
