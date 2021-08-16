@@ -12,11 +12,11 @@ static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
-    [SchemeNorm] = {"#cccccc", "#090A0F"},
-    [SchemeSel] = {"#000000", "#B2B2CC"},
-    [SchemeSelHighlight] = {"#d7d7d7", "#000000"},
-    [SchemeNormHighlight] = {"#5E97AF", "#000000"},
-    [SchemeOut] = {"#090A0F", "#B2B2CC"},
+    [SchemeNorm] = {"#cccccc", "#1A1B26"},
+    [SchemeSel] = {"#090A0F", "#B2B2CC"},
+    [SchemeSelHighlight] = {"#d7d7d7",  "#090A0F"},
+    [SchemeNormHighlight] = {"#5E97AF", "#090A0F"},
+    [SchemeOut] = {"#1A1B26", "#B2B2CC"},
     [SchemeMid] = {"#ffffff", "#505A7A"},
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
