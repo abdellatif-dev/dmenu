@@ -1,1 +1,4 @@
+surf
 *.o
+*.so
+config.h
