@@ -13,16 +13,16 @@ static const char *prompt =
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
     [SchemeNorm] = {"#cccccc", "#1A1B26"},
-    [SchemeSel] = {"#090A0F", "#B2B2CC"},
-    [SchemeSelHighlight] = {"#d7d7d7",  "#090A0F"},
-    [SchemeNormHighlight] = {"#5E97AF", "#090A0F"},
-    [SchemeOut] = {"#1A1B26", "#B2B2CC"},
-    [SchemeMid] = {"#ffffff", "#505A7A"},
+    [SchemeSel] = {"#ffffff", "#505A7A"},
+    [SchemeSelHighlight] = {"#d7d7d7", "#000000"},
+    [SchemeNormHighlight] = {"#5E97AF", "#000000"},
+    [SchemeOut] = {"#000000", "#89DDFF"},
+    [SchemeMid] = {"#d7d7d7", "#1A1B26"},
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines = 0;
 static unsigned int lineheight =
-    22; /* -h option; minimum height of a menu line */
+    19; /* -h option; minimum height of a menu line */
 static unsigned int columns = 0;
 
 /*

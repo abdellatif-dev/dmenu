@@ -1,4 +1,4 @@
-surf
+dmenu
 *.o
 *.so
 config.h
