@@ -28,15 +28,15 @@
 #define NUMBERSMAXDIGITS 100
 #define NUMBERSBUFSIZE (NUMBERSMAXDIGITS * 2) + 1
 
-/* enums */
-enum {
-  SchemeNorm,
-  SchemeSel,
-  SchemeNormHighlight,
-  SchemeSelHighlight,
-  SchemeOut,
-  SchemeLast
-}; /* color schemes */
+    /* enums */
+    enum {
+      SchemeNorm,
+      SchemeSel,
+      SchemeNormHighlight,
+      SchemeSelHighlight,
+      SchemeOut,
+      SchemeLast
+    }; /* color schemes */
 
 struct item {
   char *text;
