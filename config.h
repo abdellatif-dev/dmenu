@@ -28,7 +28,7 @@ static unsigned int lineheight =
  * Characters not considered part of a word while deleting words
  * for example: " /?\"&[]"
  */
-static const char worddelimiters[] = " ";
+static const char worddelimiters[] = " *''/?\"&[]";
 
 /* Size of the window border */
 static unsigned int border_width = 3; /* -bw option; to add border width */
