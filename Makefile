@@ -18,7 +18,7 @@ options:
 	$(CC) -c $(CFLAGS) $<
 
 config.h:
-	cp $@ config.def.h
+	cp config.def.h $@
 
 $(OBJ): arg.h config.h config.mk drw.h
 
