@@ -974,8 +974,8 @@ int main(int argc, char *argv[]) {
     parentwin = root;
   if (!XGetWindowAttributes(dpy, parentwin, &wa))
     die("could not get embedding window attributes: 0x%lx", parentwin);
-xinitvisual();
-drw = drw_create(dpy, screen, root, wa.width, wa.height, visual, depth, cmap);
+  xinitvisual();
+  drw = drw_create(dpy, screen, root, wa.width, wa.height, visual, depth, cmap);
   readxresources();
   /* Now we check whether to override xresources with commandline parameters */
   if (tempfonts)
