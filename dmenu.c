@@ -884,7 +884,7 @@ void readxresources(void) {
       colors[SchemeNorm][ColFg] = strdup(xval.addr);
     else
       colors[SchemeNorm][ColFg] = strdup(colors[SchemeNorm][ColFg]);
-    if (XrmGetResource(xdb, "dmenu.color3", "*", &type, &xval))
+    if (XrmGetResource(xdb, "dmenu.color4", "*", &type, &xval))
       colors[SchemeSel][ColBg] = strdup(xval.addr);
     else
       colors[SchemeSel][ColBg] = strdup(colors[SchemeSel][ColBg]);
