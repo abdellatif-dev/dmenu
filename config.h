@@ -20,7 +20,7 @@ static const unsigned int alphas[SchemeLast][2] = {
 	[SchemeOut] = { OPAQUE, alpha },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines = 30;
+static unsigned int lines = 20;
 
 /*
  * Characters not considered part of a word while deleting words
