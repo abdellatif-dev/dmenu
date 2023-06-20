@@ -9,9 +9,9 @@ static const char *prompt =
 static const unsigned int alpha = 0x99;     /* Amount of opacity. 0xff is opaque             */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
-    [SchemeNorm] = {"#c0caf5", "#1a1b26"},
-    [SchemeSel] = {"#1a1b26", "#7aa2f7"},
-    [SchemeOut] = {"#15161e", "#7dcfff"},
+    [SchemeNorm] = {"#e0af68", "#1a1b26"},
+    [SchemeSel] = {"#1a1b26", "#e0af68"},
+    [SchemeOut] = {"#15161e", "#e0af68"},
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
